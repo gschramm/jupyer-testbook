@@ -84,4 +84,5 @@ Here is [My cool table](my-table-ref)
 ## Bibliography
 
 ```{bibliography}
+:style: unsrt
 ```
