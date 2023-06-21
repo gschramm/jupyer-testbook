@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>Here’s my sample title &#8212; My sample book</title>
+    <title>A chapter containing many things &#8212; My sample book</title>
   
   
   
@@ -60,6 +60,7 @@ const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
     <script async="async" src="_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'mymarkdownfile';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
@@ -156,7 +157,7 @@ const thebe_selector_output = ".output, .cell_output"
             </li>
         </ul>
         <ul class="current nav bd-sidenav">
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">Here’s my sample title</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">A chapter containing many things</a></li>
 <li class="toctree-l1"><a class="reference internal" href="test.html">This a jupyter notebook</a></li>
 </ul>
 
@@ -341,7 +342,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Here’s my sample title</h1>
+    <h1>A chapter containing many things</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -351,7 +352,10 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#here-s-my-first-section">Here’s my first section</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#a-section-containing-code">A section containing code</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#a-section-containing-math">A section containing math</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#a-section-containg-a-table">A section containg a table</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#bibliography">Bibliography</a></li>
 </ul>
             </nav>
         </div>
@@ -363,12 +367,12 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article" role="main">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="here-s-my-sample-title">
-<h1>Here’s my sample title<a class="headerlink" href="#here-s-my-sample-title" title="Permalink to this headline">#</a></h1>
+  <section id="a-chapter-containing-many-things">
+<h1>A chapter containing many things<a class="headerlink" href="#a-chapter-containing-many-things" title="Permalink to this headline">#</a></h1>
 <p>This is some sample text.</p>
-<section id="here-s-my-first-section">
-<span id="section-label"></span><h2>Here’s my first section<a class="headerlink" href="#here-s-my-first-section" title="Permalink to this headline">#</a></h2>
-<p>Here is a <a class="reference internal" href="intro.html"><span class="doc std std-doc">reference to the intro</span></a>. Here is a reference to <a class="reference internal" href="#section-label"><span class="std std-ref">Here’s my first section</span></a>.</p>
+<section id="a-section-containing-code">
+<span id="section-label"></span><h2>A section containing code<a class="headerlink" href="#a-section-containing-code" title="Permalink to this headline">#</a></h2>
+<p>Here is a <a class="reference internal" href="intro.html"><span class="doc std std-doc">reference to the intro</span></a>. Here is a reference to <a class="reference internal" href="#section-label"><span class="std std-ref">A section containing code</span></a>.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="mi">2</span> <span class="o">+</span> <span class="mi">2</span><span class="p">)</span>
@@ -395,11 +399,65 @@ document.write(`
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[&lt;matplotlib.lines.Line2D at 0x7f5c6d0d6090&gt;]
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[&lt;matplotlib.lines.Line2D at 0x7fd270895b90&gt;]
 </pre></div>
 </div>
 <img alt="_images/1b23f78a6a3f8b9ac4a6c6df84f84d47ca40aaa71c7eab46dd2b4ded56053a88.png" src="_images/1b23f78a6a3f8b9ac4a6c6df84f84d47ca40aaa71c7eab46dd2b4ded56053a88.png" />
 </div>
+</div>
+</section>
+<section id="a-section-containing-math">
+<h2>A section containing math<a class="headerlink" href="#a-section-containing-math" title="Permalink to this headline">#</a></h2>
+<p>This is an important equation according to <span id="id1">[<a class="reference internal" href="#id3" title="Christopher Ramsay Holdgraf, Wendy de Heer, Brian N. Pasley, and Robert T. Knight. Evidence for Predictive Coding in Human Auditory Cortex. In International Conference on Cognitive Neuroscience. Brisbane, Australia, Australia, 2014. Frontiers in Neuroscience.">HdHPK14</a>]</span></p>
+<div class="math notranslate nohighlight" id="equation-eq-one">
+<span class="eqno">(1)<a class="headerlink" href="#equation-eq-one" title="Permalink to this equation">#</a></span>\[\int_0^\alpha f(x) dx = I_\alpha\]</div>
+<p>See Equation <a class="reference internal" href="#equation-eq-one">(1)</a></p>
+<div class="amsmath math notranslate nohighlight">
+\[\begin{gather*}
+a_1=b_1+c_1\\
+a_2=b_2+c_2-d_2+e_2
+\end{gather*}\]</div>
+<p>This works because of the amsmath MyST extension:</p>
+<div class="math notranslate nohighlight" id="equation-eq-two">
+<span class="eqno">(2)<a class="headerlink" href="#equation-eq-two" title="Permalink to this equation">#</a></span>\[\begin{split}\begin{align}
+a_{11}&amp; =b_{11}&amp;
+  a_{12}&amp; =b_{12}\\
+a_{21}&amp; =b_{21}&amp;
+  a_{22}&amp; =b_{22}+c_{22}
+\end{align}\end{split}\]</div>
+<p>See Equation <a class="reference internal" href="#equation-eq-two">(2)</a></p>
+</section>
+<section id="a-section-containg-a-table">
+<h2>A section containg a table<a class="headerlink" href="#a-section-containg-a-table" title="Permalink to this headline">#</a></h2>
+<p>Here is <a class="reference internal" href="#my-table-ref"><span class="std std-ref">My cool table</span></a></p>
+<table class="colwidths-auto table" id="my-table-ref">
+<caption><span class="caption-number">Table 1 </span><span class="caption-text">A table</span><a class="headerlink" href="#my-table-ref" title="Permalink to this table">#</a></caption>
+<thead>
+<tr class="row-odd"><th class="head"><p>col 1</p></th>
+<th class="head"><p>col 2</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>3</p></td>
+<td><p>4</p></td>
+</tr>
+<tr class="row-odd"><td><p>1</p></td>
+<td><p>2</p></td>
+</tr>
+<tr class="row-even"><td><p>a</p></td>
+<td><p>b</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="bibliography">
+<h2>Bibliography<a class="headerlink" href="#bibliography" title="Permalink to this headline">#</a></h2>
+<div class="docutils container" id="id2">
+<dl class="citation">
+<dt class="label" id="id3"><span class="brackets"><a class="fn-backref" href="#id1">HdHPK14</a></span></dt>
+<dd><p>Christopher Ramsay Holdgraf, Wendy de Heer, Brian N. Pasley, and Robert T. Knight. Evidence for Predictive Coding in Human Auditory Cortex. In <em>International Conference on Cognitive Neuroscience</em>. Brisbane, Australia, Australia, 2014. Frontiers in Neuroscience.</p>
+</dd>
+</dl>
 </div>
 </section>
 </section>
@@ -471,7 +529,10 @@ document.write(`
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#here-s-my-first-section">Here’s my first section</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#a-section-containing-code">A section containing code</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#a-section-containing-math">A section containing math</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#a-section-containg-a-table">A section containg a table</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#bibliography">Bibliography</a></li>
 </ul>
   </nav></div>
 

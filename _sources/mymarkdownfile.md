@@ -13,12 +13,12 @@ kernelspec:
   name: python3
 ---
 
-# Here's my sample title
+# A chapter containing many things
 
 This is some sample text.
 
 (section-label)=
-## Here's my first section
+## A section containing code
 
 Here is a [reference to the intro](intro.md). Here is a reference to [](section-label).
 
@@ -37,4 +37,51 @@ fig, ax = plt.subplots()
 ax.plot(x,y)
 ```
 
+## A section containing math
 
+This is an important equation according to {cite}`holdgraf_evidence_2014`
+
+```{math}
+:label: eq-one
+\int_0^\alpha f(x) dx = I_\alpha
+```
+See Equation [](eq-one)
+
+\begin{gather*}
+a_1=b_1+c_1\\
+a_2=b_2+c_2-d_2+e_2
+\end{gather*}
+
+This works because of the amsmath MyST extension:
+
+```{math}
+:label: eq-two
+\begin{align}
+a_{11}& =b_{11}&
+  a_{12}& =b_{12}\\
+a_{21}& =b_{21}&
+  a_{22}& =b_{22}+c_{22}
+\end{align}
+```
+
+See Equation [](eq-two)
+
+
+## A section containg a table
+
+Here is [My cool table](my-table-ref)
+
+```{table} A table
+:name: my-table-ref
+
+| col 1 | col 2 |
+|---|---|
+| 3 | 4 |
+| 1 | 2 |
+| a | b |
+```
+
+## Bibliography
+
+```{bibliography}
+```
