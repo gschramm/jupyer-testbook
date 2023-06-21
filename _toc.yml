@@ -5,4 +5,4 @@ format: jb-book
 root: intro
 chapters:
 - file: mymarkdownfile
-- file: test
+- file: myscript
