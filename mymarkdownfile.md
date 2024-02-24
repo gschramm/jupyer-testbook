@@ -66,6 +66,20 @@ a_{21}& =b_{21}&
 
 See Equation [](eq-two)
 
+```{math}
+:label: eq3
+\begin{align}
+\alpha &= 1 \\
+\beta &= 2
+\end{align}
+```
+
+See Equation [](eq3)
+
+```{math}
+:label: eq4
+\int_0^\alpha f(x)^2 dx = J_\alpha
+```
 
 ## A section containg a table
 
